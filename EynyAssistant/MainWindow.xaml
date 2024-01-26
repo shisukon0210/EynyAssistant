@@ -1,0 +1,19 @@
+﻿<Window x:Class="EynyAssistant.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eynyassistant"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button Content="保留" DockPanel.Dock="Left" Background="#1E1F22" Width="150" ></Button>
+        
+        <StackPanel DockPanel.Dock="Top" Background="#313338" Height="50">
+            <Button Content="同步" Foreground="White" FontSize="20" Background="Green" Margin="5, 5, 5, 5" Width="100" Height="40" HorizontalAlignment="Right" Click="ParseEynyHtml" />
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Right" Background="#313338">
+            <!--here-->
+        </StackPanel>
+    </DockPanel>
+</Window>
