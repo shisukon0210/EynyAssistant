@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
+using System.Data.SQLite;
 
-namespace Eynyassistant.Model
+namespace EynyAssistant.Model
 {
     public class Post:INotifyPropertyChanged
     {
